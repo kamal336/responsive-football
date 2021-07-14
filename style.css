@@ -86,7 +86,7 @@ a{
  top players section starts from here 
  ================================*/
  #top-players{
-     background-color: rgb(240, 246, 247);
+    background-color: #FFFFFF;
      padding: 70px 230px 165px 180px;
  }
 
@@ -98,6 +98,7 @@ a{
  }
 
  .player{
+   background-color: #FFFFFF;
    box-shadow: 0.5px 0.5px 2px;
    padding: 15px;
    width: 330px;
@@ -125,3 +126,59 @@ a{
    /*==============================
  top players section ends from here 
  ================================*/
+
+   /*==============================
+   footer starts from here 
+ ================================*/
+  footer{
+    background-color: #FFFFFF;
+  }
+
+  .footer-section{
+      text-align: center;
+  }
+
+  .footer-logo img{
+      width: 484px;
+      height: 110px;
+  }
+
+  .social-icon{
+      font-size: 32px;
+      padding: 14px;
+  }
+
+  .copyright{
+      margin-bottom: 63px;
+  }
+
+  .copyright p{
+      font-size: 18px;
+  }
+ /*==============================
+   footer ends from here 
+ ================================*/
+
+ 
+/*==============================
+   media query starts from here
+ ================================*/
+   
+ /* For Mobile*/
+ @media only screen and (max-width: 668px) {
+  
+    #top-banner{
+        grid-template-columns: 1fr;
+    }
+
+ 
+   .players{
+       grid-template-columns: 1fr;
+       
+   }
+  
+ }
+ /*==============================
+   media query ends from here
+ ================================*/
+
